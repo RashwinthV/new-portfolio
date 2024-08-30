@@ -15,6 +15,10 @@
     margin: 20px;
     box-shadow: 10px 10px 50px greenyellow;
     border-radius: 100px;
+    transition: all 0.6s ease-in-out;
+}
+.img_profile:hover{
+    transform: scale(1.2);
 }
 .btn_con{
     border-style: none;
@@ -26,15 +30,15 @@
     color: black;
     box-shadow: 5px 5px 5px black;
     border-radius: 20px;
-    background-image: linear-gradient(to right rgb(1, 255, 1) rgb(1, 255, 1) rgb(1, 255, 1));
     background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
     background-size: 300% 100%;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn_con:hover {
 background-position: 100% 0;
 color: white;
+transform: scale(1.1);
 box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 }
 
