@@ -1,0 +1,40 @@
+#welcome{
+    margin-top: 30px;
+}
+.hello, .obj{
+    margin: 5px;
+    color: white;
+}
+.name{
+    color: #0dff05;
+    margin: 5px;
+}
+.img_profile{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 50px greenyellow;
+    border-radius: 100px;
+}
+.btn_con{
+    border-style: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size:large;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    background-image: linear-gradient(to right rgb(1, 255, 1) rgb(1, 255, 1) rgb(1, 255, 1));
+    background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
+    background-size: 300% 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn_con:hover {
+background-position: 100% 0;
+color: white;
+box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
+}
+

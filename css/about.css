@@ -1,0 +1,25 @@
+#main{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#About{
+    background-color: rgba(255, 255, 255, 0.089);
+    font-size: large;
+    color: rgba(255, 255, 255, 0.815);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px greenyellow;
+}
+.heading{
+    font-size:x-large;
+    text-shadow: 4px 4px 4px  black;
+    text-align: center;
+}
+.content{
+    font-size: large;
+    text-shadow: 4px 4px 4px  black;
+    text-align: justify;
+}
