@@ -40,6 +40,14 @@ hr{
     flex-direction: column;
     justify-content: space-between;
 }
+.card-title{
+    font-weight: bold;
+    font-size:medium;
+}
+.desc_title{
+    font-weight: 600;
+    font-size:medium;
+}
 
 .pro_but {
     padding: 10px;
