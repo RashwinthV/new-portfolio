@@ -41,4 +41,23 @@ color: white;
 transform: scale(1.1);
 box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 }
+.desc{
+    color: white;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+}
+.obj_desc{
+    margin: 5px;
+    color: white;
+    text-align: justify;
+    margin: 20px;
+}
+.desc_head{
+    font-weight: bold;
+    text-decoration: underline white;
+}
+hr{
+    color: whitesmoke;
+}
 
