@@ -55,7 +55,8 @@ box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 }
 .desc_head{
     font-weight: bold;
-    text-decoration: underline white;
+    margin-bottom: 10px;
+    /* text-decoration: underline white; */
 }
 hr{
     color: whitesmoke;
