@@ -20,6 +20,9 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+.navbar-brand:hover{
+    color: rgb(255, 0, 0);
+}
 
 nav{
     background-color: rgba(255, 255, 255, 0.082);
