@@ -1,0 +1,43 @@
+#main {
+    margin-top: 50px;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+hr{
+    color: whitesmoke;
+}
+.progress_skill{
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+}
+.heading_skill{
+    margin: 15px;
+    color: white;
+    text-align: left;
+    font-size: large;
+    text-align: center;
+}
+.head_skill{
+    color: white;
+    margin: 10px;
+    font-size: medium;
+}
+.other{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+.langs{
+    background-color:tomato;
+    color: white;
+    font-weight: bold; 
+}
+.web{
+    background-color:greenyellow;
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
