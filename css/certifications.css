@@ -19,11 +19,15 @@ hr{
     height: 400px;
     width: 250px;
     margin: 10px;
-
     box-shadow: 2px 2px 15px greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: all 0.1s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px rgb(255, 174, 0);
 }
 
 .card-img-top {
