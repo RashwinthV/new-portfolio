@@ -23,7 +23,7 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .card:hover{
     transform: scale(1.1);
@@ -44,6 +44,8 @@ hr{
 }
 
 .pro_but {
+    width: 150px;
+    height: 40px;
     border: none;
     font-family: monospace;
     font-weight: bolder;

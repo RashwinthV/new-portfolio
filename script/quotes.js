@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     { quote: "Chase your dreams and never stop. Only you can make it happen.", author: "Virat Kohli, Indian Cricketer" },
                     { quote: "Hard work puts you where the good luck can find you.", author: "Virat Kohli, Indian Cricketer" },
                     { quote: "In life, there are no excuses. You have to work for everything.", author: "Virat Kohli, Indian Cricketer" },
-
+                    { quote: "If There is a one percent chance, and sometimes that chance is good enough. But what matters is what you think about that one percent. Are you willing to give absolutely everything that you have to make that one into 10 and then grow that 10 into 30? Eventually, something magical might come out of it.", author: "Virat Kohli, Indian Cricketer" },
                     // Quotes from Rohit Sharma
                     { quote: "The more you practice, the more confident you become.", author: "Rohit Sharma, Indian Cricketer" },
                     { quote: "You have to keep working hard and stay focused on your goals.", author: "Rohit Sharma, Indian Cricketer" },
