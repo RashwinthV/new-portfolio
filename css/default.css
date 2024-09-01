@@ -117,7 +117,8 @@ nav{
 
 .author {
     font-size: 1rem; 
-    color: #6c757d; 
+    color: #00000080; 
+    font-weight: bold;
     text-align: end;
 }
 .btn-close {
