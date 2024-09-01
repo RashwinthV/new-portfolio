@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Bill Gates: 13 quotes
                 // Shiv Nadar: 10 quotes
                 // Narayana Murthy: 10 quotes
-                // Virat Kohli: 13 quotes
+                // Virat Kohli: 14 quotes
                 // Rohit Sharma: 15 quotes
                 // MS Dhoni: 14 quotes
                 // Sundar Pichai: 15 quotes
