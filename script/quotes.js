@@ -1,7 +1,7 @@
 
-   
-        document.addEventListener('DOMContentLoaded', function() {
-            const quotes = 
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if the modal has already been shown during this session
+    if (!sessionStorage.getItem('modalShown')) {
             [
                     { quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.", author: "Steve Jobs, Co-founder of Apple Inc." },
                     { quote: "The only way to do great work is to love what you do.", author: "Steve Jobs, Co-founder of Apple Inc." },
@@ -151,15 +151,18 @@
                 // Ratan Tata: 15 quotes
 
         
-            // Get a random quote
-            const randomIndex = Math.floor(Math.random() * quotes.length);
-            const randomQuote = quotes[randomIndex];
+                const randomIndex = Math.floor(Math.random() * quotes.length);
+                const randomQuote = quotes[randomIndex];
         
-            // Display the quote and author in the modal
-            document.getElementById("modal-quote").innerText = `"${randomQuote.quote}"`;
-            document.getElementById("modal-author").innerText = `- ${randomQuote.author}`;
+                // Display the quote and author in the modal
+                document.getElementById("modal-quote").innerText = `"${randomQuote.quote}"`;
+                document.getElementById("modal-author").innerText = `- ${randomQuote.author}`;
         
-            // Show the modal
-            const myModal = new bootstrap.Modal(document.getElementById('quoteModal'));
-            myModal.show();
+                // Show the modal
+                const myModal = new bootstrap.Modal(document.getElementById('quoteModal'));
+                myModal.show();
+        
+                // Set a flag in sessionStorage to indicate the modal has been shown
+                sessionStorage.setItem('modalShown', 'true');
+            }
         });
