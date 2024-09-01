@@ -1,7 +1,8 @@
 
-
-        const quotes = [
-            // Life Quotes
+   
+        document.addEventListener('DOMContentLoaded', function() {
+            const quotes = [
+                          // Life Quotes
             { quote: "The only limit to our realization of tomorrow is our doubts of today.", author: "Franklin D. Roosevelt" },
             { quote: "Do not wait to strike till the iron is hot; but make it hot by striking.", author: "William Butler Yeats" },
             { quote: "Great minds discuss ideas; average minds discuss events; small minds discuss people.", author: "Eleanor Roosevelt" },
@@ -158,14 +159,18 @@
             { quote: "Believe in yourself, and the rest will follow.", author: "Rohit Sharma" },
             { quote: "Hard work and dedication are the cornerstones of success.", author: "Rohit Sharma" },
             { quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.", author: "Rohit Sharma" },
-        ];
+          
+            ];
         
-   
-
-    // Get a random quote
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    const randomQuote = quotes[randomIndex];
-
-    // Display the quote and author
-    document.getElementById("quote").innerHTML = `"${randomQuote.quote}"`;
-    document.getElementById("author").innerHTML = `- ${randomQuote.author}`;
+            // Get a random quote
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const randomQuote = quotes[randomIndex];
+        
+            // Display the quote and author in the modal
+            document.getElementById("modal-quote").innerText = `"${randomQuote.quote}"`;
+            document.getElementById("modal-author").innerText = `- ${randomQuote.author}`;
+        
+            // Show the modal
+            const myModal = new bootstrap.Modal(document.getElementById('quoteModal'));
+            myModal.show();
+        });
