@@ -1,7 +1,7 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     // Check if the modal has already been shown during this session
     if (!sessionStorage.getItem('modalShown')) {
+            const quotes = 
             [
                     { quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.", author: "Steve Jobs, Co-founder of Apple Inc." },
                     { quote: "The only way to do great work is to love what you do.", author: "Steve Jobs, Co-founder of Apple Inc." },
@@ -151,6 +151,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Ratan Tata: 15 quotes
 
         
+            // Get a random quote
+
+                // Get a random quote
                 const randomIndex = Math.floor(Math.random() * quotes.length);
                 const randomQuote = quotes[randomIndex];
         
